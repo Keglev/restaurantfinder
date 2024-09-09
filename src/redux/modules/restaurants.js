@@ -19,14 +19,14 @@ export default function reducer(state = initialState, action) {
     }
 }
 
-export function SET_RESTAURANTS(restaurants) {
+export function setRestaurants(restaurants) {
     return {
         type: Types.SET_RESTAURANTS,
         payload: restaurants,
     };
 }
 
-export function SET_RESTAURANT(restaurant) {
+export function setRestaurant(restaurant) {
     return {
         type: Types.SET_RESTAURANT,
         payload: restaurant,

@@ -9,7 +9,7 @@ import store from './redux/store';
 
 function App() {
   return (  
-    <Provider>
+    <Provider store={store}>
       <ThemeProvider theme={theme}>
       <Reset />
       <Home />
