@@ -1,4 +1,4 @@
-:plate_with_cutlery: ### Restaurant Finder App
+#:plate_with_cutlery: # Restaurant Finder App
 
 The Restaurant Finder App helps users easily discover nearby restaurants based on their current location or specified preferences.
 Whether you're looking for a quick bite or a fine dining experience, this app brings you curated results with useful details like ratings, distance, 
