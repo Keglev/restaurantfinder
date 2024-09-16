@@ -1,3 +1,9 @@
+:plate_with_cutlery: ### Restaurant Finder App
+
+The Restaurant Finder App helps users easily discover nearby restaurants based on their current location or specified preferences.
+Whether you're looking for a quick bite or a fine dining experience, this app brings you curated results with useful details like ratings, distance, 
+and whether they are open or closed based on the user's time.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
