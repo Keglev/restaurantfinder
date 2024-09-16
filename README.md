@@ -14,11 +14,11 @@ and whether they are open or closed based on the user's time.
 
 [Usage](#Usage)
 
-[Available Scripts](#Available Scripts)
+[Available Scripts](#Available-Scripts)
 
 [Technologies](#Technologies)
 
-[API Integration](#API Integration)
+[API Integration](#API-Integration)
 
 [Contributing](#Contributing)
 
@@ -77,7 +77,7 @@ To run this app locally, follow these steps:
 Search for Restaurants: After launching the app, the homepage will show restaurants based on your current location. 
 You can enter by cuisine type, or any restaurant name if you want. 
 View Details: Click on a restaurant to view detailed information including reviews, address, opening hours, and directions.
-Map View: Use the interactive map to visually explore restaurant locations.
+Map View: Use the interactive map to explore restaurant locations visually.
 
 ## Available Scripts
 
@@ -119,10 +119,15 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## Technologies:
 
 Frontend: React, React Router
+
 Backend: Node.js, JavaScript
+
 APIs: Google Maps API
+
 Styling: CSS
+
 Testing: Jest, React Testing Library
+
 Maps: Google Maps API for interactive map views
 
 ## API Integration
