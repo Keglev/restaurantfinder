@@ -40,14 +40,19 @@ and whether they are open or closed based on the user's time.
 
 # Homepage
 
-![Screenshot 1](.src/assets/RestaurantFinder.png)
+<img src="./src/assets/RestaurantFinder.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 
 Restaurant Search Results
 
 
+<img src="./src/assets/Pizza.png" alt="Screenshot 1" width="600" height="300"/>
+
+
 Restaurant Details Page
+
+<img src="./src/assets/Burger Details.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 
