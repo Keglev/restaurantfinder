@@ -44,13 +44,13 @@ and whether they are open or closed based on the user's time.
 
 
 
-Restaurant Search Results
+# Restaurant Search Results
 
 
 <img src="./src/assets/Pizza.png" alt="Screenshot 1" width="600" height="300"/>
 
 
-Restaurant Details Page
+# Restaurant Details Page
 
 <img src="./src/assets/Burger Details.png" alt="Screenshot 1" width="600" height="300"/>
 
