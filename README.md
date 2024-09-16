@@ -38,7 +38,9 @@ and whether they are open or closed based on the user's time.
 
 # Screenshots
 
-Homepage
+# Homepage
+
+![Screenshot 1](.src/assets/RestaurantFinder.png)
 
 
 
