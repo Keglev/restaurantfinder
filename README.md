@@ -72,10 +72,11 @@ To run this app locally, follow these steps:
    npm install
 
 4. Get API keys from Google Maps API and Yelp Fusion API (or any other restaurant API you're using), and create a .env file in the project root:
+   
    REACT_APP_GOOGLE_MAPS_API_KEY=your-google-maps-api-key
    REACT_APP_YELP_API_KEY=your-yelp-api-key
 
-5. Start the development server:
+6. Start the development server:
 
    npm start
 
