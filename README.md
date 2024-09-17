@@ -40,17 +40,23 @@ and whether they are open or closed based on the user's time.
 
 # Homepage
 
+## This is where the initial screen when a user initiates the search
+
 <img src="./src/assets/RestaurantFinder.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 
 # Restaurant Search Results
 
+## When the user enters something like "Burger" "Pizza" or Italian" It gets the results. 
+## Note the fact that all searches were tested in German.
+
 
 <img src="./src/assets/Pizza.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 # Restaurant Details Page
+## It shows the restaurant details, like the address, and whether it is open or closed.
 
 <img src="./src/assets/Burger Details.png" alt="Screenshot 1" width="600" height="300"/>
 
