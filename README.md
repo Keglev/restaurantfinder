@@ -1,6 +1,97 @@
-# Getting Started with Create React App
+# :plate_with_cutlery: Restaurant Finder App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Restaurant Finder App helps users discover nearby restaurants based on their location or preferences.
+Whether you're looking for a quick bite or a fine dining experience, this app brings you curated results with useful details like ratings, distance, 
+and whether they are open or closed based on the user's time.
+
+# Table of Contents
+
+[Features](#Features) 
+
+[Screenshots](#Screenshots)
+
+[Installation](#Instalation)
+
+[Usage](#Usage)
+
+[Available Scripts](#Available-Scripts)
+
+[Technologies](#Technologies)
+
+[API Integration](#API-Integration)
+
+[Contributing](#Contributing)
+
+
+# Features
+📍 Location-based Search: Automatically detects your location and suggests restaurants nearby.
+
+🔍 Custom Search: Search for restaurants by name, cuisine type.
+
+⭐ Ratings: Displays ratings with stars based on Google Reviews
+
+🗺 Interactive Map: View restaurant locations on an interactive map.
+
+📱 Responsive Design: Optimized for both mobile and desktop use.
+
+:alarm_clock: Show if the restaurant is open or closed based on the user system hour.
+
+# Screenshots
+
+# Homepage
+
+## This is where the initial screen when a user initiates the search
+
+<img src="./src/assets/RestaurantFinder.png" alt="Screenshot 1" width="600" height="300"/>
+
+
+
+# Restaurant Search Results
+
+## When the user enters something like "Burger" "Pizza" or Italian" It gets the results. 
+## Note the fact that all searches were tested in German.
+
+
+<img src="./src/assets/Pizza.png" alt="Screenshot 1" width="600" height="300"/>
+
+
+# Restaurant Details Page
+## It shows the restaurant details, like the address, and whether it is open or closed.
+
+<img src="./src/assets/Burger Details.png" alt="Screenshot 1" width="600" height="300"/>
+
+
+
+# Installation
+To run this app locally, follow these steps:
+
+1. Clone the repository:
+
+  git clone https://github.com/your-username/restaurant-finder-app.git
+
+2. Navigate to the project directory:
+   
+  cd restaurant-finder-app
+
+3. Install the dependencies:
+
+   npm install
+
+4. Get API keys from Google Maps API and Yelp Fusion API (or any other restaurant API you're using), and create a .env file in the project root:
+   
+   REACT_APP_GOOGLE_MAPS_API_KEY=your-google-maps-api-key
+   REACT_APP_YELP_API_KEY=your-yelp-api-key
+
+6. Start the development server:
+
+   npm start
+
+## Usage
+
+Search for Restaurants: After launching the app, the homepage will show restaurants based on your current location. 
+You can enter by cuisine type, or any restaurant name if you want. 
+View Details: Click on a restaurant to view detailed information including reviews, address, opening hours, and directions.
+Map View: Use the interactive map to explore restaurant locations visually.
 
 ## Available Scripts
 
@@ -38,6 +129,37 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Technologies:
+
+Frontend: React, React Router
+
+Backend: Node.js, JavaScript
+
+APIs: Google Maps API
+
+Styling: CSS
+
+Testing: Jest, React Testing Library
+
+Maps: Google Maps API for interactive map views
+
+## API Integration
+
+This app integrates with:
+
+Google Maps API: To display restaurant locations on an interactive map.
+For more information, check out the Google Maps API Documentation.
+
+## Contributing
+
+Contributions are welcome! Here's how you can contribute:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/YourFeatureName).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Commit your changes (git commit -m 'Add some feature').
+5. Open a pull request.
 
 ## Learn More
 
