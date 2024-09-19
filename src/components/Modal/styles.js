@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+// Overlay is a styled component that creates a full-screen overlay for the modal.
+// It is positioned fixed to cover the entire viewport and ensures that the modal is centered.
+// The background is semi-transparent with a blur effect, and it has a high z-index to appear above other content.
+
 export const Overlay = styled.div`
     position: fixed;
     top: 0;
@@ -18,6 +22,10 @@ export const Overlay = styled.div`
 
     z-index: 999;
 `;
+
+// Dialog is the styled component for the modal window itself.
+// It is a centered, fixed-size box with padding, a shadow, and a white background.
+// It has rounded corners and is designed to fit neatly within the overlay.
 
 export const Dialog = styled.div`
     display: flex;
