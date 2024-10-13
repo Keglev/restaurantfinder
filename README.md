@@ -42,7 +42,7 @@ and whether they are open or closed based on the user's time.
 
 ## This is where the initial screen when a user initiates the search
 
-<img src="./src/assets/project-image.png" alt="Screenshot 1" width="600" height="300"/>
+<img src="./src/assets/imgs/project-image.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 
@@ -52,13 +52,13 @@ and whether they are open or closed based on the user's time.
 ## Note the fact that all searches were tested in German.
 
 
-<img src="./src/assets/Pizza.png" alt="Screenshot 1" width="600" height="300"/>
+<img src="./src/assets/imgs/Pizza.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 # Restaurant Details Page
 ## It shows the restaurant details, like the address, and whether it is open or closed.
 
-<img src="./src/assets/Burger Details.png" alt="Screenshot 1" width="600" height="300"/>
+<img src="./src/assets/imgs/Burger Details.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 
