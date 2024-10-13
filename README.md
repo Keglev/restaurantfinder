@@ -42,7 +42,7 @@ and whether they are open or closed based on the user's time.
 
 ## This is where the initial screen when a user initiates the search
 
-<img src="./src/assets/RestaurantFinder.png" alt="Screenshot 1" width="600" height="300"/>
+<img src="./src/assets/project-image.png" alt="Screenshot 1" width="600" height="300"/>
 
 
 
