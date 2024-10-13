@@ -1,7 +1,7 @@
 import React, { useState } from "react"; // Import React and useState hook for managing state
 import TextField, { Input } from "@material/react-text-field"; // Import TextField and Input component from material design
-import logo from '../../assets/logo.svg'; // Import the logo image
-import food from '../../assets/foodimages.jpeg' // Import a default food image in case of a restaurant has no picture available
+import logo from '../../assets/imgs/logo.svg'; // Import the logo image
+import food from '../../assets/imgs/foodimages.jpeg' // Import a default food image in case of a restaurant has no picture available
 import { 
     Container, 
     Search, 
@@ -94,10 +94,10 @@ const Home = () => {
            {restaurantSelected ? (
             <>
                 {/* Display restaurant name, phone number, address, and open status */}
-                <ModalTitle>{restaurantSelected?.name}</ModalTitle>
-                <ModalContent>{restaurantSelected?.formatted_phone_number}</ModalContent>
-                <ModalContent>{restaurantSelected?.formatted_address}</ModalContent>
-                <ModalContent>
+                <ModalTitle>{restaurantSelected?.name || 'Unknown Restaurant Name'}</ModalTitle>
+                <ModalContent>{restaurantSelected?.formatted_phone_number || 'No Phone Number'}</ModalContent>
+                <ModalContent>{restaurantSelected?.formatted_address|| 'No Address'}</ModalContent>
+                <ModalContent> 
                     {/* Shows if the restaurant is open or not, it reads the oppening hours from Google API*/}
                     {restaurantSelected?.opening_hours?.open_now 
                         ? 'Open Now :-)' 

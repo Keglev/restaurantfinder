@@ -1,7 +1,7 @@
 import React, { useState } from "react"; // React and useState hook for managing component state.
 import ReactStars from 'react-rating-stars-component'; // Component for rendering star ratings.
 import { Restaurant, RestaurantInfo, RestaurantPicture, Title, Address } from "./styles"; // Importing styled components.
-import food from '../../assets/foodimages.jpeg'; // Default image if the restaurant doesn't have one.
+import food from '../../assets/imgs/foodimages.jpeg'; // Default image if the restaurant doesn't have one.
 import Skeleton from "../Skeleton"; // Skeleton component for loading placeholder effect.
 
 const RestaurantCard = ({ restaurant, onClick }) => {
