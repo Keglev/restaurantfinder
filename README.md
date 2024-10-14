@@ -1,3 +1,6 @@
+## About
+This App is about a Restaurant find based on the user's location. 
+It fetches an Google API and return the restaurants nearby based on user interaction
 # :plate_with_cutlery: Restaurant Finder App
 
 The Restaurant Finder App helps users discover nearby restaurants based on their location or preferences.
