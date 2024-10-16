@@ -135,13 +135,13 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Technologies:
 
-Frontend: React, React Router
+Frontend: *React, React Router
 
-Backend: Node.js, JavaScript
+Backend: *Node.js, *JavaScript
 
-APIs: Google Maps API
+APIs: Google Maps *API
 
-Styling: CSS
+Styling: *CSS
 
 Testing: Jest, React Testing Library
 
