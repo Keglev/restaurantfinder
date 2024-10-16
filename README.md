@@ -145,7 +145,7 @@ Styling: CSS
 
 Testing: Jest, React Testing Library
 
-Maps: Google Maps API for interactive map views
+Maps: Google Maps API 
 
 ## API Integration
 
